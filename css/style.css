@@ -56,11 +56,19 @@ a:hover
     width: 25%;
     padding: 20px;
 }
-.tarjeta-individual:hover
+.tarjeta-individual a
 {
-    background-color: red;
-    
+    color:red;
+}
+.tarjeta-individual:hover 
+{
+    background-color: red;   
+    filter: hue-rotate(20deg); /*rojo*/
+}
 
+.icono-tarjeta
+{
+    filter: invert(1);
 }
 
 
@@ -80,6 +88,8 @@ a:hover
     list-style: none;
     
 }
+
+/*sub-footer*/
 
 .footer-bar-icon
 {
