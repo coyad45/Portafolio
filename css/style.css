@@ -40,6 +40,14 @@ a:hover
     margin:  20px;
     
 }
+.article button
+{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    background-color: red;
+    width: 25%;
+    padding: 20px;
+}
 /*tarjetas*/
 .tarjetas
 {
@@ -70,6 +78,7 @@ a:hover
 {
     filter: invert(1);
 }
+
 
 
 /*footer*/
