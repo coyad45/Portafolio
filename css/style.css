@@ -44,7 +44,8 @@ a:hover
 {
     font-family: 'Secular One', sans-serif;
     color: white;
-    background-color: red;
+    background: radial-gradient(circle, rgba(237,0,0,1) 0%, rgba(171,24,54,1) 100%);
+    border: 0;
     width: 25%;
     padding: 20px;
 }
@@ -79,7 +80,22 @@ a:hover
     filter: invert(1);
 }
 
-
+.content
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.content-cuadros
+{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    
+}
 
 /*footer*/
 .footer-bar
