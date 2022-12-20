@@ -80,6 +80,7 @@ a:hover
     filter: invert(1);
 }
 
+/*cuadro de informacion de experiencia*/     
 .content
 {
     display: flex;
@@ -90,11 +91,22 @@ a:hover
 }
 .content-cuadros
 {
-    background-color: red;
     display: flex;
-    align-items: center;
     margin: 60px;
+    flex-direction: column;
+    justify-content: center; 
+}
+.cuadros
+{
+    padding: 10px;
+    display: flex
+}
+.cuadro-individual
+{
     
+    background-color: red;
+    margin: 10px;
+    width: 250px;
 }
 
 /*footer*/
