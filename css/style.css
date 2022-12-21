@@ -3,13 +3,19 @@ body
     background-color: #111010;
     color: white;
     font-family: 'Secular One', sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+   
     padding: 0;
     
 }
+.pagina
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid white;
+}
 /*Nav bar*/
 header {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.20) 0px -12px 30px, rgba(0, 0, 0, 0.20) 0px 4px 6px, rgba(0, 0, 0, 0.20) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -58,6 +64,7 @@ a:hover
     justify-content: space-around;
     align-items: center;
     margin: 0 20px;
+
     
 }
 .tarjeta-individual
@@ -115,7 +122,21 @@ a:hover
 .feature
 {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
 }
+
+.feature button
+{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    background: radial-gradient(circle, rgba(237,0,0,1) 0%, rgba(171,24,54,1) 100%);
+    border: 0;
+    width: 200px;
+    padding: 12px;
+}
+
 /*footer*/
 .footer-bar
 {
